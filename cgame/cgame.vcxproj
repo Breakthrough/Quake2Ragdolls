@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6142F5B2-6C8D-4B98-A6E2-562E1310E452}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Intermediate/$(Configuration)/$(ProjectName)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Intermediate/$(Configuration)/$(ProjectName)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Intermediate/$(Configuration)/$(ProjectName)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Intermediate/$(Configuration)/$(ProjectName)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>c:\quake2\baseq2/cgame.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;CGAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\debug/cgame.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc90.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <AdditionalIncludeDirectories>d:\bullet-svn-r2243\src</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/analyze:stacksize 8192 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>c:\quake2\basepgl\pglcgamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>c:\quake2\baseq2\eglcgamex86.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>c:\quake2\baseq2\eglcgamex86.map</MapFileName>
+      <MapExports>true</MapExports>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>d:\bullet-svn-r2243\msvc\2008\lib\Debug;..\win32\lib\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>luad.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/cgame.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;CGAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Release/cgame.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>c:\quake2\baseq2\pglcgamex86.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <AdditionalIncludeDirectories>d:\bullet-svn-r2243\src</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>c:\quake2\basepgl\pglcgamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>c:\quake2\baseq2\eglcgamex86.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>c:\quake2\baseq2\eglcgamex86.map</MapFileName>
+      <MapExports>true</MapExports>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>
+      </ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>d:\bullet-svn-r2243\msvc\2008\lib\Release;..\win32\lib\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>luar.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cg_api.cpp" />
+    <ClCompile Include="cg_decals.cpp" />
+    <ClCompile Include="cg_items.cpp" />
+    <ClCompile Include="cg_light.cpp" />
+    <ClCompile Include="cg_mapeffects.cpp" />
+    <ClCompile Include="cg_parteffects.cpp" />
+    <ClCompile Include="cg_particles.cpp" />
+    <ClCompile Include="cg_partsustain.cpp" />
+    <ClCompile Include="cg_partthink.cpp" />
+    <ClCompile Include="cg_parttrail.cpp" />
+    <ClCompile Include="..\game\m_flash.cpp" />
+    <ClCompile Include="menu\m_main.cpp" />
+    <ClCompile Include="menu\m_mp.cpp" />
+    <ClCompile Include="menu\m_mp_downloading.cpp" />
+    <ClCompile Include="menu\m_mp_join.cpp" />
+    <ClCompile Include="menu\m_mp_join_addrbook.cpp" />
+    <ClCompile Include="menu\m_mp_player.cpp" />
+    <ClCompile Include="menu\m_mp_start.cpp" />
+    <ClCompile Include="menu\m_mp_start_dmflags.cpp" />
+    <ClCompile Include="menu\m_opts.cpp" />
+    <ClCompile Include="menu\m_opts_controls.cpp" />
+    <ClCompile Include="menu\m_opts_effects.cpp" />
+    <ClCompile Include="menu\m_opts_hud.cpp" />
+    <ClCompile Include="menu\m_opts_input.cpp" />
+    <ClCompile Include="menu\m_opts_misc.cpp" />
+    <ClCompile Include="menu\m_opts_screen.cpp" />
+    <ClCompile Include="menu\m_opts_sound.cpp" />
+    <ClCompile Include="menu\m_quit.cpp" />
+    <ClCompile Include="menu\m_sp.cpp" />
+    <ClCompile Include="menu\m_sp_credits.cpp" />
+    <ClCompile Include="menu\m_sp_loadgame.cpp" />
+    <ClCompile Include="menu\m_sp_savegame.cpp" />
+    <ClCompile Include="menu\m_vid.cpp" />
+    <ClCompile Include="menu\m_vid_exts.cpp" />
+    <ClCompile Include="menu\m_vid_settings.cpp" />
+    <ClCompile Include="menu\menu.cpp" />
+    <ClCompile Include="cg_keys.cpp" />
+    <ClCompile Include="cg_location.cpp" />
+    <ClCompile Include="cg_main.cpp" />
+    <ClCompile Include="cg_media.cpp" />
+    <ClCompile Include="cg_parse.cpp" />
+    <ClCompile Include="cg_players.cpp" />
+    <ClCompile Include="cg_predict.cpp" />
+    <ClCompile Include="pmove.cpp" />
+    <ClCompile Include="ui\ui_backend.cpp" />
+    <ClCompile Include="ui\ui_cursor.cpp" />
+    <ClCompile Include="ui\ui_draw.cpp" />
+    <ClCompile Include="ui\ui_items.cpp" />
+    <ClCompile Include="ui\ui_keys.cpp" />
+    <ClCompile Include="cg_console.cpp" />
+    <ClCompile Include="cg_draw.cpp" />
+    <ClCompile Include="cg_entities.cpp" />
+    <ClCompile Include="cg_hud.cpp" />
+    <ClCompile Include="cg_inventory.cpp" />
+    <ClCompile Include="cg_loadscreen.cpp" />
+    <ClCompile Include="cg_localents.cpp" />
+    <ClCompile Include="cg_muzzleflash.cpp" />
+    <ClCompile Include="cg_screen.cpp" />
+    <ClCompile Include="cg_tempents.cpp" />
+    <ClCompile Include="cg_view.cpp" />
+    <ClCompile Include="cg_weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cg_api.h" />
+    <ClInclude Include="cg_localents.h" />
+    <ClInclude Include="cg_shared.h" />
+    <ClInclude Include="cg_effects.h" />
+    <ClInclude Include="..\game\game.h" />
+    <ClInclude Include="menu\m_local.h" />
+    <ClInclude Include="menu\menu.h" />
+    <ClInclude Include="cg_keys.h" />
+    <ClInclude Include="cg_local.h" />
+    <ClInclude Include="cg_media.h" />
+    <ClInclude Include="colorpal.h" />
+    <ClInclude Include="ui\ui_local.h" />
+    <ClInclude Include="cg_entities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\shared\shared.vcxproj">
+      <Project>{9c8abf66-9772-4e44-9c89-9fbcc687ce2d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

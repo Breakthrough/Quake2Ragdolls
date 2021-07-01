@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{510531e8-acfc-410c-9569-d4a630db3e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effects">
+      <UniqueIdentifier>{8b4b6cf8-fc58-4382-9d14-283c578eaa06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{ce63b3ab-8dfb-4f46-ae36-8618b40203f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{0799fcda-b2ce-4744-af9c-3995a98e07c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{deac8669-8d45-4be7-9c20-4dd3eb75a731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{a6b2fb50-b6b0-48b8-b809-f865f482d8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{9f6d4ba9-d2e2-46b4-8c27-ca04419fd711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{da00b341-295c-4ff5-8876-870e407a3132}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cg_api.cpp">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_decals.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_light.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_mapeffects.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_parteffects.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_particles.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_partsustain.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_partthink.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_parttrail.cpp">
+      <Filter>effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\m_flash.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_main.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_mp.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_mp_downloading.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_mp_join.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_mp_join_addrbook.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_mp_player.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_mp_start.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_mp_start_dmflags.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts_controls.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts_effects.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts_hud.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts_input.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts_misc.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts_screen.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_opts_sound.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_quit.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_sp.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_sp_credits.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_sp_loadgame.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_sp_savegame.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_vid.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_vid_exts.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\m_vid_settings.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_keys.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_location.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_main.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_media.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_parse.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_players.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_predict.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="pmove.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_backend.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_cursor.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_draw.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_items.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_keys.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_console.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_draw.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_entities.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_hud.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_inventory.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_loadscreen.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_localents.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_muzzleflash.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_screen.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_tempents.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_view.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_weapon.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="cg_items.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cg_api.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_shared.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_effects.h">
+      <Filter>effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\m_local.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_keys.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_local.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_media.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="colorpal.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_local.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_entities.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="cg_localents.h">
+      <Filter>view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
