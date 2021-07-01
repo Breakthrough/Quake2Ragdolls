@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MathLib">
+      <UniqueIdentifier>{beb07786-c198-454d-9fbe-bab981e88c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Templates">
+      <UniqueIdentifier>{ef56a7b8-addf-43ea-af4f-989bad86198e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathLib\MathLib.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MathLib\Vector.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates\Templates.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates\TTypes.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorVec.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="shared.h" />
+    <ClInclude Include="TList.h">
+      <Filter>Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="cm_scripting.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="string.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="MD5.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Templates\Templates.cpp">
+      <Filter>Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="byteswap.cpp" />
+    <ClCompile Include="ColorVec.cpp" />
+    <ClCompile Include="infostrings.cpp" />
+    <ClCompile Include="m_angles.cpp" />
+    <ClCompile Include="m_bounds.cpp" />
+    <ClCompile Include="m_mat3.cpp" />
+    <ClCompile Include="m_mat4.cpp" />
+    <ClCompile Include="m_plane.cpp" />
+    <ClCompile Include="m_quat.cpp" />
+    <ClCompile Include="mathlib.cpp" />
+    <ClCompile Include="mersennetwister.cpp" />
+    <ClCompile Include="shared.cpp" />
+    <ClCompile Include="string.cpp" />
+    <ClCompile Include="cm_scripting.cpp" />
+    <ClCompile Include="Items.cpp" />
+  </ItemGroup>
+</Project>
