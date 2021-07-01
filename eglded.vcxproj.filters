@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{a96b677a-1be4-4eb6-9e19-eb1bc519161a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{4e6187a4-d6de-4ef9-8200-75114fb542b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{fa06f42a-0324-48a7-9476-50b44dcba62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{250c6686-29c7-437a-949a-fee6bce9026e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{e94dde4f-2a69-438b-a220-8ce16a8c3cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{78085153-a7a2-413f-9c78-dea73a686c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\minizip">
+      <UniqueIdentifier>{d3790898-4701-42a6-93bd-b4e84e2542ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\alias.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cbuf.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q2_main.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q2_trace.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q3_main.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q3_patch.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q3_trace.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cmd.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\crc.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cvar.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\files.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\md4.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\memory.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net_chan.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net_msg.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\parse.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ccmds.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ents.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_gameapi.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_init.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_main.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_pmove.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_send.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_user.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_world.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_console.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_sock.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="include\minizip\ioapi.c">
+      <Filter>include\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="include\minizip\iowin32.c">
+      <Filter>include\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="include\minizip\minizip.c">
+      <Filter>include\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="include\minizip\mztools.c">
+      <Filter>include\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="include\minizip\unzip.c">
+      <Filter>include\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="include\minizip\zip.c">
+      <Filter>include\minizip</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\alias.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_public.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_q2_local.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_q3_local.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cmd.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cvar.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\files.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\font.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\parse.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\protocol.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="server\sv_local.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win_local.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\egl.ico">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\egl.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

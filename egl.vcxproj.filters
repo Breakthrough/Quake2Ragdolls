@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{d317f50c-cc16-48fd-93c9-25da86a45eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{50b55df4-ac13-439f-b361-99bf49da5bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{19cd6325-71e0-4964-8b5a-be0d46e25f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{82d3827b-7df5-4f5e-a074-263be5b131e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{78bb7c06-2340-4348-a270-2963348713c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgame\cg_api.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="cgame\cg_shared.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cl_keys.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cl_local.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\gui_local.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\gui_public.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_local.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_public.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="common\alias.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_public.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_q2_local.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_q3_local.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cmd.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cvar.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\files.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\parse.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\protocol.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\glext.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\r_local.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\r_public.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rb_local.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rb_public.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rb_qgl.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_defpal.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_image.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_local.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_material.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_model.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_modelLocal.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_program.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_public.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_register.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\rf_shader.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\sv_local.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\wglext.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win_local.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cm_common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client\cl_acapi.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_cgapi.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_cin.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_console.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_demo.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_download.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_input.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_keys.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_main.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_parse.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_screen.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_cursor.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_draw.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_events.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_init.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_items.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_keys.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_main.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\gui_vars.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_dma.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_main.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_openal.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="common\alias.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cbuf.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q2_main.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q2_trace.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q3_main.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q3_patch.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_q3_trace.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cmd.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\crc.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cvar.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\files.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\md4.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\memory.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net_chan.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\net_msg.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\parse.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_batch.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_init.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_light.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_qgl.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_render.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_shadow.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_state.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_2d.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_alias.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_cull.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_decal.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_entity.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_font.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_image.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_init.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_light.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_main.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_material.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_meshbuffer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_model.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_modelAlias.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_modelBSP.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_poly.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_program.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_register.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_shader.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_skeletal.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_sky.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_sprite.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_video.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rf_world.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ccmds.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ents.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_gameapi.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_init.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_main.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_pmove.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_send.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_user.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_world.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_console.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_glimp.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_input.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_snd.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_sock.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_vid.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_scripting.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cm_common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\rb_bloom.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\egl.ico">
+      <Filter>win32</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\egl.rc">
+      <Filter>win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
